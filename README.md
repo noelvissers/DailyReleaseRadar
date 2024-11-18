@@ -11,6 +11,6 @@ This program can be configured via the appsettings.json file. It is recommended 
 |Spotify:ClientId              |string|Client ID, can be found under `settings` → `Basic Information` in your Spotify app dashboard|
 |Spotify:ClientSecret          |string|Client secret, can be found under `settings` → `Basic Information` in your Spotify app dashboard|
 |Spotify:RedirectUri           |string|Redirect URI, must be same as the one in your Spotify app|
-|Spotify:RefreshToken[Optional]|string|Refresh token, can be used so no login is required every time the program is executed. After first login, the console will print your refresh token that can saved here|
+|Spotify:RefreshToken          |string|Refresh token (optional), can be used so no login is required every time the program is executed. After first login, the console will print your refresh token that can saved here|
 |Settings:PlaylistId           |string|Spotify (Daily Release Radar) playlist ID, example: `6OBMcaBurzTq78EPDiVXWl`|
 |Settings:DateAddedThreshold   |int   |Days after which a track is removed from the playlist, default 7||
