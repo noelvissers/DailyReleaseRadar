@@ -1,0 +1,7 @@
+C:\git\github\DailyReleaseRadar\DailyReleaseRadar\DailyReleaseRadar\bin\Debug\DailyReleaseRadar.exe.config
+C:\git\github\DailyReleaseRadar\DailyReleaseRadar\DailyReleaseRadar\bin\Debug\DailyReleaseRadar.exe
+C:\git\github\DailyReleaseRadar\DailyReleaseRadar\DailyReleaseRadar\bin\Debug\DailyReleaseRadar.pdb
+C:\git\github\DailyReleaseRadar\DailyReleaseRadar\DailyReleaseRadar\obj\Debug\DailyReleaseRadar.csproj.AssemblyReference.cache
+C:\git\github\DailyReleaseRadar\DailyReleaseRadar\DailyReleaseRadar\obj\Debug\DailyReleaseRadar.csproj.CoreCompileInputs.cache
+C:\git\github\DailyReleaseRadar\DailyReleaseRadar\DailyReleaseRadar\obj\Debug\DailyReleaseRadar.exe
+C:\git\github\DailyReleaseRadar\DailyReleaseRadar\DailyReleaseRadar\obj\Debug\DailyReleaseRadar.pdb
