@@ -1,6 +1,6 @@
 # DailyReleaseRadar
 
-Catch all the latest music from artists you follow. Updates daily.
+Gets the latest Spotify releases of the artists you follow and adds them to your Daily Release Radar playlist.
 
 ## App settings
 
