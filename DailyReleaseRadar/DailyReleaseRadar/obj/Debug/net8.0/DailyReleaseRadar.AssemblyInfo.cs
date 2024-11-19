@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DailyReleaseRadar")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+147bb4665e940337cdbeccfcb12499567e0f391d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+91f5cc09df9ca2cc11de31976eb81b384e0f192f")]
 [assembly: System.Reflection.AssemblyProductAttribute("DailyReleaseRadar")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DailyReleaseRadar")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -144,9 +144,11 @@ namespace DailyReleaseRadar
       Stopwatch stopwatch = Stopwatch.StartNew();
 
       int requests = 0;
+      int i = 0;
       foreach (FullArtist artist in artists)
       {
-        Console.WriteLine($"[{artist.Id}] {artist.Name}:");
+        i++;
+        Console.WriteLine($"[{i}/{artists.Count()}] [{artist.Id}] {artist.Name}:");
 
         // Handle rate limit
         stopwatch.Restart();
