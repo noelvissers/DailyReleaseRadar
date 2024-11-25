@@ -305,11 +305,17 @@ namespace DailyReleaseRadar
         }
 
         // Handle rate limit
-        var msToSleep = stopwatch.ElapsedMilliseconds - ((requests / 3) * stopwatch.ElapsedMilliseconds) + 20;
-        Console.ForegroundColor = ConsoleColor.DarkGray;
-        Console.WriteLine($"  Waiting {msToSleep}ms to not hit rate limit...");
-        Thread.Sleep((int)msToSleep);
-        Console.ResetColor();
+        double msToSleep = ((double)requests / 3) * 1000;
+        stopwatch.Stop();
+        if (msToSleep > stopwatch.ElapsedMilliseconds)
+        {
+          var msLeftToSleep = msToSleep - stopwatch.ElapsedMilliseconds;
+          Console.ForegroundColor = ConsoleColor.DarkGray;
+          Console.WriteLine($"  Waiting {(int)msLeftToSleep}ms to not hit rate limit...");
+          Thread.Sleep((int)msLeftToSleep);
+          Console.ResetColor();
+        }
+        stopwatch.Start();
       }
       stopwatch.Stop();
       return tempTracksToAdd;
