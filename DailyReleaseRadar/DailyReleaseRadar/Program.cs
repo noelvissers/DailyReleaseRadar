@@ -420,7 +420,7 @@ namespace DailyReleaseRadar
         .AddUserSecrets<Program>()
         .Build();
       string playlistId = configurationBuilder.GetSection("Settings:PlaylistId").Value;
-      DateTime dateAddedThreshold = DateTime.UtcNow.AddDays(-1 * Int32.Parse(configurationBuilder.GetSection("Settings:DateAddedThreshold").Value));
+      DateTime dateAddedThreshold = DateTime.UtcNow.AddDays(-1 * Int32.Parse(configurationBuilder.GetSection("Settings:DateAddedThreshold").Value)).AddHours(-1);
 
       var tracksToRemove = new List<PlaylistRemoveItemsRequest.Item>();
 
